@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaloy Outfit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <div class="brand"><a href="/">Zaloy Outfit</a></div>
+    <nav>
+      <a class="cart-link" href="#cart">Keranjang (<span id="cartCount">0</span>)</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <section class="hero">
+    <div>
+      <h1>Belanja fashion pria modern</h1>
+      <p>Toko demo online yang bisa dijalankan di GitHub Pages.</p>
+    </div>
+    <form id="searchForm" class="search-form" onsubmit="return false;">
+      <input id="searchInput" type="text" placeholder="Cari produk...">
+      <button type="submit">Cari</button>
+    </form>
+  </section>
+  <section id="products" class="products-grid"></section>
+  <section id="cart" class="cart" aria-label="Keranjang">
+    <h2>Keranjang Anda</h2>
+    <div id="cartContent"></div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p>Demo e-commerce Zaloy Outfit untuk GitHub Pages.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

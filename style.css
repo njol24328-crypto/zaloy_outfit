@@ -119,15 +119,21 @@ body {
   color: #111827;
   background: #f3f4f6;
 }
-.cart table {
-  width: 100%;
-  border-collapse: collapse;
+.cart-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
 }
-.cart th,
-.cart td {
-  padding: 16px 12px;
-  border-bottom: 1px solid #e5e7eb;
-  text-align: left;
+.cart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  align-items: center;
 }
 .cart-summary {
   margin-top: 18px;
