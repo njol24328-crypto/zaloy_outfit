@@ -1,5 +1,2 @@
-node_modules
-.next
+db_data
 .env.local
-dist
-coverage
